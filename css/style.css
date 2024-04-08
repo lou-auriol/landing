@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("components/container.css");
+@import url(components/avatar.css);
+@import url(components/button.css);
+@import url(components/banner.css);
+@import url(components/cards.css);
+
+body{
+	font-family: Red Hat Display;
+	font-style: 18px;
+	margin: 0px;
+}
+
+h1, {
+	font-family: Bebas Neue;
+	font-style: 48px;
+}
+
+h2, h3 {
+	font-family: Red Hat Display;
+	font-style: 48px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 
+	30px;
+}
+
+.container {
+	margin: 50px auto;
+}
+
+.card {
+	width: 1000px;
+}
+
+@media (max-width: 1000px) {
+	.container{
+		width: 800px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container{
+		width: 400px;
+	}
+}
